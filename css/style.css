@@ -13,6 +13,20 @@
     padding: 10px;
   }
 
+  .phum{
+    border-style: double;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .team{
+    border-style: double;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+  }
+
   @media only screen and (min-width: 576px) {
     /* For phones: */
     .col-s-1 {width: 8.33%;}
