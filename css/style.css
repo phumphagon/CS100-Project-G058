@@ -13,29 +13,40 @@
     padding: 10px;
   }
 
-  .phum{
-    border-color: red;
-    border-style: double;
-    border-left: none;
-    border-bottom: none;
-    border-top: none; 
-  }
 
-  .team{
-    border-color: red;
+  .phum{
+    border-color:#6E0B80;
     border-style: double;
     border-left: none;
     border-bottom: none;
     border-top: none;
+    padding-left: 50px;
+    padding-right: 70px; 
+    background-color:#FAFAEB ;
   }
 
+  .team{
+    border-color:#6E0B80;
+    border-style: double;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    padding-left: 50px;
+    padding-right: 70px; 
+    background-color:#FFFCE9  ;
+  }
+
+  .north {
+    padding-left: 50px;
+    padding-right: 50px; 
+    background-color:#FAFAEB ;
+  }
+
+  
   img{
     border-radius: 50%;
   }
 
-  body{
-    background-color: aqua;
-  }
 
   .fa {
     padding: 20px;
@@ -48,12 +59,12 @@
   }
   
   .fa-facebook{
-    background-color:#0066CC;
+    background-color:#4E43FF;
     color: white;
   }
 
   .fa-instagram{
-    background-color:#FF3399;
+    background-color:#FF3C86 ;
     color: white;
   }
 
@@ -117,14 +128,33 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
-  h1 {
+ h1 {
     font-family: "Times New Roman", Serif;
-    color: #FFFFFF ;
+    color: #FFF700 ;
     background-color:#000000  ;
     border-style:none ;
     padding: 15px;
+    } 
+    
+  h3 {
+    border: none;
+    background-color:  #1A2067 ;
+    padding: 8px;
+    border-radius: 38%;
+    text-align: center;
+    color:  #4BFFFA  ;
+  }  
+
+   .footer {
+      background-color: #373736 ;
+      color: #FFFFFF ;
     }
-    .footer {
-      background-color: #D9D9D9 ;
-      color: #000000;
+
+    p {
+      border-style:none ;
+      padding: 5px;
+      font-size: medium ;
+      text-align: center;
     }
+ 
+    
