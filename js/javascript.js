@@ -27,8 +27,8 @@ const config = {
   function validateStudentID() {
     const studentIDInput = document.getElementById("studentID");
     const studentIDPattern = /^\d{10}$/;
-    const errorElement = document.getElementById("studentIDError");
-  
+    let x = document.getElementById("demo").value;
+
     if (!studentIDPattern.test(studentIDInput.value)) {
       errorElement.textContent = "Please enter a 10-digit Student ID.";
       return false;
