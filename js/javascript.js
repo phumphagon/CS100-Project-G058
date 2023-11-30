@@ -1,9 +1,5 @@
 /*
-  File: script.js
-  Author: CS100 Team
-  Date Created: 23 July 2023
-  Copyright: CSTU
-  Description: JS code of CSTU Passport that validate with JS
+ ยังไม่ได้เพิ่ม js อีกสามตัว
 */
 
 const config = {
