@@ -14,17 +14,47 @@
   }
 
   .phum{
+    border-color: red;
+    border-style: double;
+    border-left: none;
+    border-bottom: none;
+    border-top: none; 
+  }
+
+  .team{
+    border-color: red;
     border-style: double;
     border-left: none;
     border-bottom: none;
     border-top: none;
   }
 
-  .team{
-    border-style: double;
-    border-left: none;
-    border-bottom: none;
-    border-top: none;
+  img{
+    border-radius: 50%;
+  }
+
+  body{
+    background-color: aqua;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 28px;
+    border-radius: 50%;
+  }
+  
+  .fa-facebook{
+    background-color:#0066CC;
+    color: white;
+  }
+
+  .fa-instagram{
+    background-color:#FF3399;
+    color: white;
   }
 
   @media only screen and (min-width: 576px) {
