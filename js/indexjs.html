@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
-  <title>Forms - CSTU Passport</title>
+  <title>Our Activities</title>
   <link rel="stylesheet" href="cssjs.css">
 </head>
 <body>
   <!-- Form Container -->
   <div class="form-container">
-    <h1>CSTU Passport</h1>
+    <h1>Our Activities</h1>
     <!-- Main Form -->
     <form id="myForm" action="#" method="post">
       <!-- Firstname and Lastname Field -->
@@ -37,19 +37,21 @@
         <span id="emailError" class="error"></span>
       </div>
 
-      <!-- Work/Activity Title Field -->
-      <div class="form-group">
-        <label for="workTitle">Work/Activity Title</label>
-        <input type="text" id="workTitle" name="workTitle" />
-      </div>
-
       <!-- Type of Work/Activity Field -->
       <div class="form-group">
-        <label for="activityType">Type of Work/Activity</label>
+        <label for="activityType">Type of Activity</label>
         <select id="activityType" name="activityType">
-          <option value="" disabled selected>Select an option</option>
+          <option value="" disabled selected>Select an Activity</option>
+          <option value="" Orientation>ปฐมนิเทศ (Orientation)</option>
+          <option value="" FirstMeet TU>รับเพื่อนใหม่(Firstmeet)</option>
+          <option value="" Halloween>วันฮาโลวีน (Halloween day)</option>
+          <option Value="" Freshy Game>เฟรชชี่เกม (Freshy Game)</option>
+          <option Value="" Loy krathong>วันลอยกระทง (Freshy Game)</option>
+          <option Value="" Other>กิจกรรมอื่นๆ (Other)</option>
         </select>
+        <small>If select Other activity please write that activity in Feelings about the activity</small>
       </div>
+
       <!-- <div class="form-group">
         <label for="activityType">Type of Work/Activity</label>
         <select id="activityType" name="activityType">
@@ -64,23 +66,6 @@
         </select>
       </div> -->
 
-      <!-- Academic Year Field -->
-      <div class="form-group">
-        <label for="academicYear">Academic Year</label>
-        <select id="academicYear" name="academicYear">
-          <option value="" disabled selected>Select an option</option>
-          <option value="2561">2561</option>
-          <option value="2562">2562</option>
-          <option value="2563">2563</option>
-          <option value="2564">2564</option>
-          <option value="2565">2565</option>
-          <option value="2566">2566</option>
-          <option value="2567">2567</option>
-          <option value="2568">2568</option>
-          <option value="2569">2569</option>
-        </select>
-      </div>
-
       <!-- Semester Field -->
       <div class="form-group">
         <label for="semester">Semester</label>
@@ -94,15 +79,11 @@
 
       <!-- Start Date/Time Field -->
       <div class="form-group">
-        <label for="startDate">Start Date/Time</label>
+        <label for="startDate">Date/Time</label>
         <input type="datetime-local" id="startDate" name="startDate" />
       </div>
 
-      <!-- End Date/Time Field -->
-      <div class="form-group">
-        <label for="endDate">End Date/Time</label>
-        <input type="datetime-local" id="endDate" name="endDate" />
-      </div>
+      
 
       <!-- Location Field -->
       <div class="form-group">
@@ -112,7 +93,7 @@
 
       <!-- Description Field -->
       <div class="form-group">
-        <label for="description">Description</label>
+        <label for="description">Feelings about the activity</label>
         <textarea id="description" name="description" rows="4"></textarea>
       </div>
 

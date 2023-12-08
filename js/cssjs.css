@@ -1,15 +1,17 @@
 /* Set the font family for the entire body */
 body {
     font-family: Arial, sans-serif;
+    background-color: antiquewhite;
   }
   
   /* Styling for the form container */
   .form-container {
     max-width: 600px;
-    margin: 20px auto;
+   margin: 20px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: blanchedalmond;
   }
   
   /* Center-align the heading and add margin at the bottom */
@@ -53,13 +55,26 @@ body {
   }
   
   /* Styling for the submit button */
-  .form-group input[type="submit"] {
+  .form-group input[type="submit"]{
     background-color: #4caf50;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 0 5px rgb(240, 240, 240);
+    
+  }
+
+  .form-group input[type="submit"]:hover{
+    background-color: green;
+ 
+  }
+
+  .form-group input[type="submit"]:active{
+    background-color: green;
+    transform: translateY(2px);
+    box-shadow: 0 3px #666;
   }
   
   /* Styling for small helper text */
@@ -81,3 +96,4 @@ body {
     display: block;
     margin-top: 5px;
   }
+  
