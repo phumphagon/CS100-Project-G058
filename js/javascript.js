@@ -228,6 +228,7 @@ const setSuccess = element => {
       fullname === '' ||
       studentID === '' ||
       email === '' ||
+      activityType === '' ||
       semester === '' ||
       startDate === '' ||
       location === '' ||
